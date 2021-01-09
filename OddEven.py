@@ -25,5 +25,4 @@ def main():
     print("The created list is: "+str(lst))
     print("The number of even and odds are- "+str(x))
 
-
 main()

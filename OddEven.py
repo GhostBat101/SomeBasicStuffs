@@ -22,8 +22,7 @@ def main():
 
         lst.append(ele)  # adding the element
     x = oddeven(lst)
-    print(lst)
+    print("The created list is: "+str(lst))
     print("The number of even and odds are- "+str(x))
-
 
 main()

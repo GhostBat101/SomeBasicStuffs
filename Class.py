@@ -6,5 +6,6 @@ class Computer:
 
 conf1 = Computer
 
+
 Computer.specs(conf1)
 conf1.specs(self=conf1)

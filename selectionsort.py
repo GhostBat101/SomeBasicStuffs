@@ -14,6 +14,7 @@ def input_data():
     i = input("\nEnter the numbers : ").strip().split()
     return i
 
+
 # Basic way of getting input from the user
 # n = int(input("Enter number of elements : "))
 # iterating till the range
@@ -22,7 +23,7 @@ def input_data():
 #    lst.append(ele)  # adding the element
 # print(lst)
 
-# using map and exception handling
+# using map and exception handling to get the input
 try:
     print("Please use a [space] between each input.")
     lst = list(map(int, input_data()))
@@ -30,4 +31,4 @@ try:
     sort(lst)
     print("Sorted list: ", lst)
 except:
-    print("Wrong inputs. Only use Int values")
+    print("Wrong inputs. Only use Int values.")

@@ -10,13 +10,13 @@ def main():
     print(row_sum_odd_numbers(n))
 
 
-def exception_handling():
+def main_exception_handling():
     try:
         main()
     except:
         print("Please put an Integer number. Try it again")
         time.sleep(2)
-        exception_handling()
+        main_exception_handling()
 
 
-exception_handling()
+main_exception_handling()

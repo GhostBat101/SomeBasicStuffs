@@ -13,3 +13,6 @@ for token in tokens_string:
 length_tokens.sort()
 
 print(length_tokens[0])
+
+def find_short(s):
+    return min(len(x) for x in s.split())
